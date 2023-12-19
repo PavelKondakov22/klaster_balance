@@ -13,7 +13,7 @@ https://github.com/PavelKondakov22/klaster_balance/blob/main/haproxy1.cfg
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
-- На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+- На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.  
 Решение 2  
 ![alt text](https://github.com/PavelKondakov22/klaster_balance/blob/main/z2.png)
 https://github.com/PavelKondakov22/klaster_balance/blob/main/haproxy.cfg
